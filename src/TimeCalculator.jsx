@@ -25,7 +25,7 @@ const TimeCalculator = () => {
 
                 <p className='bungee-tint-regular' style={{ fontSize: "15px" }}>Arizona Time</p>
                 <input
-                    style={{ padding: "7px", borderRadius: "5px", border: "1px solid #D1E9F6", fontSize: '15px' }}
+                    style={{ padding: "7px", borderRadius: "5px", border: "1px solid #D1E9F6", fontSize: '15px', outline: "none" }}
                     type="datetime-local"
                     value={arizonaTime}
                     onChange={handleArizonaChange}
@@ -36,7 +36,7 @@ const TimeCalculator = () => {
 
                 <p className='bungee-tint-regular' style={{ fontSize: "15px" }}>Indian Time</p>
                 <input
-                    style={{ padding: "7px", borderRadius: "5px", border: "1px solid #D1E9F6", fontSize: '15px' }}
+                    style={{ padding: "7px", borderRadius: "5px", border: "1px solid #D1E9F6", fontSize: '15px', outline: "none" }}
                     type="datetime-local"
                     value={indianTime}
                     onChange={handleIndianChange}
